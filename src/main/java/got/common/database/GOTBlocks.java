@@ -1321,7 +1321,6 @@ public class GOTBlocks {
 		GOTBlockReplacement.replaceVanillaBlock(Blocks.leaves, new GOTBlockLeavesVanilla1(), ItemLeaves.class);
 		GOTBlockReplacement.replaceVanillaBlock(Blocks.leaves2, new GOTBlockLeavesVanilla2(), ItemLeaves.class);
 		GOTBlockReplacement.replaceVanillaBlock(Blocks.fence, new GOTBlockFenceVanilla(), GOTItemFenceVanilla.class);
-		GOTBlockReplacement.replaceVanillaBlock(Blocks.cake, new GOTBlockPlaceableFood().setBlockTextureName("cake"), null);
 		assignContent();
 		registerContent();
 	}
